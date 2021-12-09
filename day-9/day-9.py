@@ -13,8 +13,7 @@ def solution(arr):
 
 def main():
     arr = parse_file('input.txt')
-    print(arr)
-    print(solution(arr))
+    print('Final Solution:', solution(arr))
 
 
 if __name__ == '__main__':
